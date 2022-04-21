@@ -1,0 +1,25 @@
+.box {
+  width: 100vw;
+  height: 100vh;
+  margin-left: 5.6rem;
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.player {
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+.list--server span {
+  margin:1rem;
+}
+#iframe {
+  margin-bottom: 1rem;
+}

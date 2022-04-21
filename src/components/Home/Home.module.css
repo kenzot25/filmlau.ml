@@ -1,0 +1,11 @@
+.home {
+  width: 100%;
+}
+.content {
+  /* padding-left: 5.6rem; */
+  margin-top: 97vh;
+  z-index: 3;
+  position: sticky;
+  background-color: #1D1D1D;
+  margin-left: 5.6rem;
+}
