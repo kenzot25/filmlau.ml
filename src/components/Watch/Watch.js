@@ -105,6 +105,7 @@ const Watch = ({ idbmID = null }) => {
           width="80%"
           height="80%"
           allowFullScreen={true}
+          // margin="1rem"
           // webkitallowfullscreen={true}
           // mozallowfullscreen="true"
           frameBorder="0"

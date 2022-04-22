@@ -150,14 +150,13 @@ export default filmSlice.reducer;
 export const getIMDBID = (category, id) => async (dispatch) => {
   try {
     const response = await axios.get(
-      `https://api.themoviedb.org/3/${category}/${id}/external_ids?api_key=${process.env.REACT_APP_KEY_API_THEMOVIEDB}f&external_source=imdb_id`
+      `https://api.themoviedb.org/3/${category}/${id}/external_ids?api_key=${process.env.REACT_APP_KEY_API_THEMOVIEDB}&external_source=imdb_id`
     );
     console.log(response);
-
     dispatch(searchIBDMID(response.data));
   } catch (err) {
     console.log("HIIIIIIIIIIIIIIIII");
-    // dispatch(renderIframe());
+    dispatch(setType("iframe"));
     throw new Error(err);
   }
 };

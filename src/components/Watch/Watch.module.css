@@ -17,9 +17,19 @@
   margin: 0 auto;
   margin-bottom: 1rem;
 }
+.list--server{
+  position: absolute;
+  /* left: 0; */
+  bottom: 2rem;
+}
 .list--server span {
   margin:1rem;
+  padding: .5rem;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.459);
 }
-#iframe {
-  margin-bottom: 1rem;
-}
+/* #iframe {
+  margin-bottom: 2rem;
+  width: max-content;
+  height: max-content;
+} */
