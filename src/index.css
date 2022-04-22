@@ -267,8 +267,8 @@ body {
     font-size: 9px;
   }
 }
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   html {
     font-size: 11px;
   }
-}
+} */
